@@ -1,0 +1,94 @@
+[
+  {
+    "Id": 1,
+    "Name": "Highway To Hell",
+    "Singer": "Bon Jovi",
+    "Genre": "rock",
+    "AlbumCover": "https://upload.wikimedia.org/wikipedia/en/a/ac/Acdc_Highway_to_Hell.JPG"
+  },
+  {
+    "Id": 2,
+    "Name": "BadBlood",
+    "Singer": "Taylor Swift",
+    "Genre": "Pop",
+    "AlbumCover": "https://upload.wikimedia.org/wikipedia/en/9/9b/Taylor_Swift_Feat._Kendrick_Lamar_-_Bad_Blood_%28Official_Single_Cover%29.png"
+  },
+  {
+    "Id": 3,
+    "Name": "I'm a mess",
+    "Singer": "Omah lay",
+    "Genre": "AfroBeats",
+    "AlbumCover": "https://resources.tidal.com/images/5b6c9719/1b9c/40ef/bc01/fea2cc990630/640x640.jpg"
+  },
+  {
+    "Id": 4,
+    "Name": "Daily Puppy",
+    "Singer": "Nsg",
+    "Genre": "Drill",
+    "AlbumCover": "https://cdns-images.dzcdn.net/images/cover/c839cb30074c8646fc227fe010c61f73/500x500.jpg"
+  },
+  {
+    "Id": 5,
+    "Name": "Jolene",
+    "Singer": "Dolly Parton",
+    "Genre": "Country",
+    "AlbumCover": "https://i.discogs.com/wadma3JIfPMrgwx1Nnbgi-VGIIoYkKZT23Rw9JYgx0A/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc1NTY1/MzgtMTQ0Mzk2MTEw/MS04NjY0LmpwZWc.jpeg"
+  },
+  {
+    "Id": 6,
+    "Name": "Wamlambez",
+    "Singer": "Sailors",
+    "Genre": "Gengetone",
+    "AlbumCover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtCyGDr2OJR-Kd5BuaPnjSOv16zGXte1DtEw&usqp=CAU"
+  },
+  {
+    "Id": 7,
+    "Name": "Under",
+    "Singer": "Alex Hepburm",
+    "Genre": "rock",
+    "AlbumCover": "https://live.staticflickr.com/8603/16411676931_68174e0faa_z.jpg"
+  },
+  {
+    "Id": 8,
+    "Name": "Kadogo",
+    "Singer": "Alikiba",
+    "Genre": "Bongo",
+    "AlbumCover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg0XzTujpudgwWOXJwxrqREbIPy0acWsW17Czwun1ZmYmltMgHX4muybOVS4irEAuwITo&usqp=CAU"
+  },
+  {
+    "Id": 9,
+    "Name": "Waiting For Superman",
+    "Singer": "Daughtry",
+    "Genre": "rock",
+    "AlbumCover": "https://upload.wikimedia.org/wikipedia/en/3/32/Daughtry%2C_Waiting_for_Superman.jpeg"
+  },
+  {
+    "Id": 10,
+    "Name": "Commitment Issues",
+    "Singer": "Central Cee",
+    "Genre": "Drill",
+    "AlbumCover": "https://i1.sndcdn.com/artworks-tG489qYBfYnE-0-t500x500.jpg"
+  },
+  {
+    "Id": 11,
+    "Name": "D.M.B",
+    "Singer": "Asap Rocky",
+    "Genre": "Trap",
+    "AlbumCover": "https://upload.wikimedia.org/wikipedia/en/b/bd/ASAP_Rocky_-_D.M.B.png"
+  },
+  {
+    "Id": 12,
+    "Name": "Atarudi",
+    "Singer": "Diamond",
+    "Genre": "Bongo",
+    "AlbumCover": "https://e-cdn-images.dzcdn.net/images/cover/a14acef06ad3d8ae12bc323e891f968e/264x264-000000-80-0-0.jpg"
+  },
+  {
+    "Id": 13,
+    "Name": "Love Story",
+    "Singer": "Taylor Swift",
+    "Genre": "Country",
+    "AlbumCover": "https://americannoise.com/wp-content/uploads/2018/07/Taylor-Swift-Love-Story-1200x1200.jpg"
+  }
+
+]

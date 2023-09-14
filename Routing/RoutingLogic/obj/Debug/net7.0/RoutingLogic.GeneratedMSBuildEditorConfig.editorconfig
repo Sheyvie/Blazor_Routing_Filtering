@@ -1,0 +1,57 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = RoutingLogic
+build_property.RootNamespace = RoutingLogic
+build_property.ProjectDir = C:\Users\USER\Documents\JituTraining\Blazor\Routing\Routing\RoutingLogic\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\USER\Documents\JituTraining\Blazor\Routing\Routing\RoutingLogic
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/USER/Documents/JituTraining/Blazor/Routing/Routing/RoutingLogic/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Documents/JituTraining/Blazor/Routing/Routing/RoutingLogic/Pages/SongDetails.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29uZ0RldGFpbHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Documents/JituTraining/Blazor/Routing/Routing/RoutingLogic/Pages/SongList.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29uZ0xpc3QucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Documents/JituTraining/Blazor/Routing/Routing/RoutingLogic/Pages/SongSearch.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29uZ1NlYXJjaC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Documents/JituTraining/Blazor/Routing/Routing/RoutingLogic/Pages/SongSearchInput.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU29uZ1NlYXJjaElucHV0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Documents/JituTraining/Blazor/Routing/Routing/RoutingLogic/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Documents/JituTraining/Blazor/Routing/Routing/RoutingLogic/Shared/SingleSong.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNpbmdsZVNvbmcucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Documents/JituTraining/Blazor/Routing/Routing/RoutingLogic/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/USER/Documents/JituTraining/Blazor/Routing/Routing/RoutingLogic/Shared/Header.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEhlYWRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-uxw4d6kp8z
+
+[C:/Users/USER/Documents/JituTraining/Blazor/Routing/Routing/RoutingLogic/Shared/SongFilter.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNvbmdGaWx0ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-ys5wc6kake

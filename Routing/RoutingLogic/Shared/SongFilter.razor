@@ -1,0 +1,32 @@
+﻿@inject NavigationManager navManager
+
+<div class="filter">
+    <label for="Singer">Singer
+        <input id="signerName" type="text" class="form-control" @bind="_singer"/>
+    </label>
+
+    <button class="btn btn-outline-primary" @onclick="filterSongs" >Filter </button>
+    <button class="btn btn-primary" @onclick="clearFilter">Clear</button>
+</div>
+
+@code {
+    private string _singer =string.Empty;
+
+
+
+    [Parameter, EditorRequired]
+
+    public string SearchItem{ get; set;}
+    
+
+
+    public void filterSongs()
+    {
+        navManager.NavigateTo($"/search/{SearchItem}/Singer/{_singer}");
+    }
+    public void clearFilter()
+    {
+        _singer = string.Empty;
+        navManager.NavigateTo($"/search/{SearchItem}");
+    }
+}

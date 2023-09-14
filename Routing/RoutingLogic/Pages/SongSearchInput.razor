@@ -1,0 +1,21 @@
+﻿@inject NavigationManager navManager
+
+<div class="search">
+    <h1 class="display-4 text-center">Music For You</h1>
+    <p class="lead text-center ">What Groove Are You Looking For?</p>
+    <p class="mt-4"></p>
+    <input type="text" @bind="_searchItem" @onkeydown="searchSong" @bind:event="oninput" placeholder="search song or genre" class="form-control form-control-lg"/>
+  
+</div>
+@code {
+    private string _searchItem = "";
+    private void searchSong(KeyboardEventArgs args)
+    {
+        if (args.Key != "Enter") return;
+
+        navManager.NavigateTo($"/search/{_searchItem}");
+    } 
+}
+
+ 
+ 

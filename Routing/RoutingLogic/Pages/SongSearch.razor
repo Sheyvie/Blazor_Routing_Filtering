@@ -1,0 +1,59 @@
+﻿@inject HttpClient httpClient
+
+@page "/search/{SearchItem}"
+@page "/search/{SearchItem}/Singer/{TheSinger}"
+
+@if (filteredSongs.Count == 0)
+{
+    <p>No songs found</p>
+}
+else
+{
+    <nav aria-label="breadcrumb">
+        <ol>
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item-active" aria-current="page">Search</li>
+        </ol>
+
+    </nav>
+    <h2> Results for @SearchItem</h2>
+    <SongFilter SearchItem = "SearchItem"/>
+    <div class="row">
+        @foreach (var song in filteredSongs)
+        {
+            <SingleSong songDto="song" />
+        }
+    </div>
+}
+
+@code {
+    [Parameter]
+    public string SearchItem{ get; set; }
+    [Parameter]
+    public string? TheSinger { get; set; }
+
+
+    private List<SongDto> foundSongs = new List<SongDto>();
+
+    private List<SongDto> filteredSongs = new List<SongDto>();
+    protected override async Task OnInitializedAsync()
+    {
+        var songs = await httpClient.GetFromJsonAsync<List<SongDto>>("sample-data/songs.json");
+        filteredSongs = songs.Where(song => song.Name.ToLower().Contains(SearchItem.ToLower()) || song.Genre.ToLower().Contains(SearchItem.ToLower())).ToList();
+        foundSongs =filteredSongs;
+    }
+
+    protected override void OnParametersSet()
+    {
+        if (TheSinger!= null)
+        {
+            filteredSongs = foundSongs.Where(x => x.Singer == TheSinger).ToList();
+        }
+        else if(TheSinger==null)
+        {
+            filteredSongs =foundSongs;
+        }
+       
+    }
+
+}

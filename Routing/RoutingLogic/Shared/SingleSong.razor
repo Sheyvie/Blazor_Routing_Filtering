@@ -1,0 +1,17 @@
+﻿<div class="card shadow col-4 m-2"style="width:18rem;">
+    <img src="@songDto.AlbumCover" class="card-img-top" alt="songDto.Name" >
+    <div class="card-body">
+        <h5 class="card-title">@songDto.Name</h5>
+        <h6 class="card-subtitle mb-3 text-muted"> @songDto.Singer </h6>
+      
+    </div>
+    <div>
+        <span>@songDto.Genre</span>
+        <a href="@($"/songs/{songDto.Id}")" class="btn btn-secondary">Details</a>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public SongDto songDto{get;set;}
+}

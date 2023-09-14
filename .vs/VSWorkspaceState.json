@@ -1,0 +1,10 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Routing",
+    "\\Routing\\RoutingLogic",
+    "\\Routing\\RoutingLogic\\Pages"
+  ],
+  "SelectedNode": "\\Routing\\RoutingLogic\\Pages\\SongDetails.razor",
+  "PreviewInSolutionExplorer": false
+}

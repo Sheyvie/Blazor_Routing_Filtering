@@ -1,0 +1,30 @@
+﻿@inject HttpClient httpClient
+
+@page "/"
+
+    @if (songs.Count == 0)
+    {
+        <p>No songs found</p>
+    }
+    else
+    {
+        <SongSearchInput/>
+    <div class="row">
+            @foreach(var song in songs)
+            {
+                <SingleSong songDto="song"/>
+            }
+    </div>
+    }
+
+
+
+ 
+@code {
+    //To load data in advance
+    private List<SongDto> songs = new List<SongDto>();
+    protected override async Task OnInitializedAsync()
+    {
+        songs = await httpClient.GetFromJsonAsync<List<SongDto>>("sample-data/songs.json");
+    }
+}
